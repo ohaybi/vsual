@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.daftar_input-form {
+  @apply ring ring-abu focus:ring-primary focus:invalid:ring-pink-500 focus:outline-none rounded-lg px-8 py-4;
+}
+
+.upload_input-form {
+  @apply ring-1 ring-abu focus:ring-primary focus:invalid:ring-pink-500 focus:outline-none rounded-lg px-6 py-3;
+}
